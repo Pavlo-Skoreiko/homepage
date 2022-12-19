@@ -1,0 +1,33 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.table__cell {
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: hsla(14, 93%, 52%, 0.959);
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.table__film {
+    background-color: hsla(7, 93%, 52%, 0.959);
+    color: #ffffff;
+    font-weight: normal;
+}
+
+
+.table__row:nth-child(even) {
+    background: hsl(30, 73%, 80%);
+}
+
+.table__row:hover {
+    background: hsl(30, 78%, 69%);
+}

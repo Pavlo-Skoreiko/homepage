@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    background-image: url("images/shining.png");
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Noto Serif Georgian', serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-shadow: 3px 9px 18px 0px hsla(358, 45%, 71%, 0.925);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    line-height: 2;
+}
+
