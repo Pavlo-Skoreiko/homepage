@@ -19,20 +19,38 @@ let button = document.querySelector(".js-button");
 let image = document.querySelector(".js-image");
 let anotherName = document.querySelector(".js-anotherName");
 
-
-
 button.addEventListener("click", () => {
-  switch (image.alt) {
-    case "Święty Mikołaj":
+  switch (anotherName.innerText) {
+    case "elfy":
       image.src = "https://i.postimg.cc/QdVvnjF1/PIK4301.jpg";
-      image.alt = "Elfy";
       anotherName.innerText = "Mikolaj";
       break;
 
-    case "Elfy":
+    case "Mikolaj":
       image.src = "https://i.postimg.cc/BbFqXf3r/Mikolaj.jpg";
-      image.alt = "Święty Mikołaj";
       anotherName.innerText = "elfy";
       break;
   }
 })
+
+
+
+// let button = document.querySelector(".js-button");
+// let image = document.querySelector(".js-image");
+// let anotherName = document.querySelector(".js-anotherName");
+
+// button.addEventListener("click", () => {
+//   switch (image.alt) {
+//     case "Święty Mikołaj":
+//       image.src = "https://i.postimg.cc/QdVvnjF1/PIK4301.jpg";
+//       image.alt = "Elfy";
+//       anotherName.innerText = "Mikolaj";
+//       break;
+
+//     case "Elfy":
+//       image.src = "https://i.postimg.cc/BbFqXf3r/Mikolaj.jpg";
+//       image.alt = "Święty Mikołaj";
+//       anotherName.innerText = "elfy";
+//       break;
+//   }
+// })
