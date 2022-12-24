@@ -1,6 +1,4 @@
 {
-    console.log("Cześć!");
-
 
     const calculateResult = (amount, currency) => {
 
