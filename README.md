@@ -10,4 +10,4 @@ https://pavlo-skoreiko.github.io/homepage/
 
 Nie wiadomo co :))
 
-![alt text](https://github.com/Pavlo-Skoreiko/homepage/blob/53d338291204906b743b94281f64f225d0559fea/scrnli_25-12-2022_11-49-58.webm)
+![alt](https://media.giphy.com/media/8YgUZixae9vUr4QgMj/giphy.gif)
