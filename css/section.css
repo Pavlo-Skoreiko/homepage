@@ -38,7 +38,7 @@
     list-style: none;
 }
 
-.section__table {
+.section--withTable {
     overflow-x: auto;
     padding: 20px 0;
     box-shadow: 3px 9px 18px 0px hsla(358, 45%, 71%, 0.925);

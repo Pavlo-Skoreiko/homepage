@@ -11,7 +11,7 @@
     text-shadow: 1px 2px 5px hsla(12, 100%, 5%, 0.925);
 }
 
-.header__img {
+.header__image {
     cursor: pointer;
     box-shadow: 4px 5px 5px 0px rgba(100, 100, 100, 0.76);
 }

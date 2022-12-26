@@ -4,16 +4,16 @@
   }
   welcome();
 
-  const img = document.querySelector("img");
+  const image = document.querySelector(".js-image");
   const anotherName = document.querySelector(".js-anotherName");
 
-  img.onclick = () => {
-    const replacePicture = img.getAttribute("src");
+  image.onclick = () => {
+    const replacePicture = image.getAttribute("src");
     if (replacePicture === "images/Mikolaj.jpg") {
-      img.setAttribute("src", "images/PIK4301.jpg");
+      image.setAttribute("src", "images/PIK4301.jpg");
       anotherName.innerText = "Mikołaj";
     } else {
-      img.setAttribute("src", "images/Mikolaj.jpg");
+      image.setAttribute("src", "images/Mikolaj.jpg");
       anotherName.innerText = "elfy";
     }
   };
